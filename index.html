@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Voglis">
+
+	<title>Voglis</title>
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="//d2b4rb25ddersn.vglimg.com/vg/img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="//d2b4rb25ddersn.vglimg.com/vg/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//d2b4rb25ddersn.vglimg.com/vg/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//d2b4rb25ddersn.vglimg.com/vg/img/apple-touch-icon-114x114.png">
+
+	<link href='//fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="//d2b4rb25ddersn.vglimg.com/vg/cssbin/www-core-vflvWm.css" rel="stylesheet" />
+
+	<!--<script src="//d2b4rb25ddersn.vglimg.com/vg/jsbin/ifeed-vfl3z5WfW.js"></script>-->
+</head>
+<body>
+	<!-- PRELOADER -->
+	<div class="page-loader">
+		<div class="loader">Loading...</div>
+	</div>
+	<!-- /PRELOADER -->
+	<!-- OVERLAY MENU -->
+	<div id="overlay-menu" class="overlay-menu">
+		<a href="#" id="overlay-menu-hide" class="navigation-hide" title="Close"><i class="ion-close-round"></i></a>
+		<div class="overlay-menu-inner">
+			<nav class="overlay-menu-nav">
+				<ul id="nav">
+					<li>
+						<a href="/neo">Neo</a>
+					</li>
+					<li>
+						<a href="/venus">Venus</a>
+					</li>
+					<li>
+						<a href="/eliquid">E-Liquid</a>
+					</li>
+					<li>
+						<a href="/contact">Contact Us</a>
+					</li>
+					<!--<li class="slidedown">
+		<a href="#">Shop and Learn</a>
+		<ul>
+			<li><a href="/neo">Neo</a></li>
+			<li><a href="/venus">Venus</a></li>
+			<li><a href="/eliquid">E-liquid</a></li>
+		</ul>
+	</li>
+	<li class="slidedown">
+		<a href="#">Voglis Store</a>
+		<ul>
+			<li><a href="/retail">Find a Store</a></li>
+			<%--
+			<li><a href="#">Workshops and Learning</a></li>
+			<li><a href="#">Financing</a></li>
+			<li><a href="#">Refurbished</a></li>--%>
+		</ul>
+	</li>
+	<li class="slidedown">
+		<a href="#">Company Values</a>
+		<ul>
+			<li><a href="/company/environment">Environment</a></li>
+			<%--
+			<li><a href="#">Supplier Responsibility</a></li>--%>
+			<li><a href="/privacy/">Privacy</a></li>
+			<li><a href="/company/diversity">Inclusion and Diversity</a></li>
+		</ul>
+	</li>
+	<li class="slidedown">
+		<a href="#">About Voglis</a>
+		<ul>
+			<li><a href="/company/about">Voglis Info</a></li>
+			<li><a href="/company/job-opportunities">Job Opportunities</a></li>
+			<li><a href="/legal/">Legal</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+	</li>-->
+				</ul>
+			</nav>
+		</div>
+		<div class="overlay-navigation-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<p class="copyright font-alt m-b-0">Copyright © 2019 Voglis, Inc. All right reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /OVERLAY MENU -->
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+		<!-- NAVIGATION -->
+		<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<!-- YOU LOGO HERE -->
+					<a class="navbar-brand" href="/">
+						<!-- IMAGE OR SIMPLE TEXT -->
+						<img src="//d2b4rb25ddersn.vglimg.com/vg/img/logo-light.png" width="135" height="21" alt="">
+					</a>
+				</div>
+				<!-- ICONS NAVBAR -->
+				<ul id="icons-navbar" class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#" id="toggle-menu" class="show-overlay" title="Menu">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					</li>
+				</ul>
+				<!-- /ICONS NAVBAR -->
+				<ul class="extra-navbar nav navbar-nav navbar-right">
+					<li><a href="/neo" title="Neo">Neo</a></li>
+					<li><a href="/venus" title="Venus">Venus</a></li>
+					<li><a href="/eliquid" title="E-Liquid">E-liquid</a></li>
+					<li><a href="/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- /NAVIGATION -->
+
+		<form id="form" runat="server">
+			<div>
+				<!-- HERO -->
+				<section id="hero" class="module-hero module-video module-full-height bg-light-30" data-background="//d2b4rb25ddersn.vglimg.com/vg/img/section-11.jpg">
+					<!-- HERO TEXT -->
+					<div class="hero-caption" style="width: 50%;">
+						<div class="hero-text">
+
+							<h1 class="mh-line-size-3 font-alt m-b-20">Vaping</h1>
+							<h5 class="mh-line-size-6 font-alt">The new fashion</h5>
+
+						</div>
+					</div>
+					<!-- /HERO TEXT -->
+					<!-- YOUTUBE VIDEO-->
+					<div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=oQa8Rv-Vq-Y', containment:'.module-video', quality:'small', startAt:62, stopAt:93, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:0, mute:true}"></div>
+					<!-- /YOUTUBE VIDEO-->
+
+				</section>
+				<!-- /HERO -->
+				<!-- PORTFOLIO -->
+				<!--<section class="module">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-sm-offset-3">
+								<h2 class="module-title font-alt">Instagram Feed</h2>
+								<div class="module-subtitle font-alt">Tag your pictures with <strong>#voglis</strong> to see yourself here!</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<h4>Win prices and more by tagging your pictures</h4>
+								<p>By tagging your pictures (with #voglis) you automatically enter into any of our contests, and you will have a chance to win in any open event. Check out the news section for upcoming events.</p>
+								<h4>Featured Picture of the week</h4>
+								<div id="instafeed-featured"></div>
+							</div>
+							<div class="col-sm-6">
+								<h4>Latest Instagram feed</h4>
+								<div id="instafeed-voglis"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6"></div>
+							<div class="col-sm-6">
+								<h4>Voglis News</h4>
+								<p><em>No news available at the moment...</em></p>
+							</div>
+						</div>
+					</div>
+				</section>-->
+				<!-- /PORTFOLIO -->
+				<script type="text/javascript">
+					var vglFeed = new Instafeed({ get: "tagged", tagName: "vape", clientId: "467ede5a6b9b48ae8e03f4e2582aeeb3", target: "instafeed-voglis", sortBy: "most-recent", links: !0, limit: 18, resolution: "thumbnail", template: '<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3"><div class="photo-box"><a href="{{link}}" target="_blank"><img src="{{image}}"></a></div></div>' }), featuredFeed = new Instafeed({ get: "user", userId: "1155344321", clientId: "467ede5a6b9b48ae8e03f4e2582aeeb3", target: "instafeed-featured", filter: function (e) { return e.tags.indexOf("vape") >= 0 }, sortBy: "none", links: !0, limit: 1, resolution: "standard_resolution", template: '<div><a href="{{link}}" target="_blank"><img src="{{image}}"></a></div>' }); vglFeed.run(), featuredFeed.run();
+					//var vglFeed = new Instafeed({
+					//    get:"tagged",
+					//    tagName:"vape",
+					//    clientId:"467ede5a6b9b48ae8e03f4e2582aeeb3", //Change CLIENT ID!!! THIS IS TEST ONLY
+					//    target:"instafeed-voglis",
+					//    sortBy:"most-recent",
+					//    links:true,
+					//    limit:18,
+					//    resolution:"thumbnail",
+					//    template:'<div class="col-xs-4 col-sm-3 col-md-3 col-lg-3"><div class="photo-box"><a href="{{link}}" target="_blank"><img src="{{image}}"></a></div></div>'
+					//});
+					//var featuredFeed = new Instafeed({
+					//    get:"user",
+					//    userId:"1155344321",
+					//    clientId:"467ede5a6b9b48ae8e03f4e2582aeeb3",//Change CLIENT ID!!! THIS IS TEST ONLY
+					//    target:"instafeed-featured",
+					//    filter: function(image) {
+					//        return image.tags.indexOf("vape") >= 0;
+					//    },
+					//    sortBy:"none",
+					//    links:true,
+					//    limit:1,
+					//    resolution:"standard_resolution",
+					//    template:'<div><a href="{{link}}" target="_blank"><img src="{{image}}"></a></div>'
+					//});
+					//vglFeed.run();
+					//featuredFeed.run();
+				</script>
+			</div>
+		</form>
+		<!-- FOOTER -->
+		<footer style="margin:0px;">
+			<div class="footer" id="footer">
+				<!--<div class="container">
+					<div class="row">
+						<div class="col-lg-3  col-md-3 col-sm-3 col-xs-12">
+							<h3 class="dish3">Shop and Learn</h3>
+							<button type="button" class="navbar-toggle collapsed footer-nav-toggle" data-toggle="collapse" data-target="#info-ft" aria-expanded="false" aria-controls="info-ft">
+								<h4>Shop and Learn</h4>
+								<span class="sr-only">Toggle navigation</span>
+								<div class="toggle-info">
+									<span class="icon-bar top-bar"></span>
+									<span class="icon-bar middle-bar"></span>
+									<span style="margin-top:-8px;" class="icon-bar bottom-bar"></span>
+								</div>
+							</button>
+							<div id="info-ft" style="padding-top:10px;" class="navbar-collapse collapse">
+								<ul>
+									<li> <a href="/neo">Neo</a> </li>
+									<li> <a href="/venus">Venus</a> </li>
+									<li> <a href="/eliquid">E-Liquid</a> </li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3  col-md-3 col-sm-3 col-xs-12">
+							<h3 class="dish3">Voglis Store</h3>
+							<button type="button" class="navbar-toggle collapsed footer-nav-toggle" data-toggle="collapse" data-target="#info-ft2" aria-expanded="false" aria-controls="info-ft2">
+								<h4>Voglis Store</h4>
+								<span class="sr-only">Toggle navigation</span>
+								<div class="toggle-info">
+									<span class="icon-bar top-bar"></span>
+									<span class="icon-bar middle-bar"></span>
+									<span style="margin-top:-8px;" class="icon-bar bottom-bar"></span>
+								</div>
+							</button>
+							<div id="info-ft2" style="padding-top:10px;" class="navbar-collapse collapse">
+								<ul>
+									<li> <a href="/retail">Find a Store</a> </li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3  col-md-3 col-sm-3 col-xs-12">
+							<h3 class="dish3">Company Values</h3>
+							<button type="button" class="navbar-toggle collapsed footer-nav-toggle" data-toggle="collapse" data-target="#info-ft3" aria-expanded="false" aria-controls="info-ft3">
+								<h4>Company Values</h4>
+								<span class="sr-only">Toggle navigation</span>
+								<div class="toggle-info">
+									<span class="icon-bar top-bar"></span>
+									<span class="icon-bar middle-bar"></span>
+									<span style="margin-top:-8px;" class="icon-bar bottom-bar"></span>
+								</div>
+							</button>
+							<div id="info-ft3" style="padding-top:10px;" class="navbar-collapse collapse">
+								<ul>
+									<li> <a href="/company/environment">Environment</a> </li>
+									<li> <a href="/privacy/">Privacy</a> </li>
+									<li> <a href="/company/diversity">Inclusion and Diversity</a> </li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3  col-md-3 col-sm-3 col-xs-12">
+							<h3 class="dish3">About Voglis</h3>
+							<button type="button" class="navbar-toggle collapsed footer-nav-toggle" data-toggle="collapse" data-target="#info-ft4" aria-expanded="false" aria-controls="info-ft4">
+								<h4 class="last-footer-child">About Voglis</h4>
+								<span class="sr-only">Toggle navigation</span>
+								<div class="toggle-info">
+									<span class="icon-bar top-bar"></span>
+									<span class="icon-bar middle-bar"></span>
+									<span style="margin-top:-8px;" class="icon-bar bottom-bar"></span>
+								</div>
+							</button>
+							<div id="info-ft4" style="padding-top:10px;" class="navbar-collapse collapse">
+								<ul>
+									<li> <a href="/company/about">Voglis Info</a> </li>
+									<li> <a href="/company/job-opportunities">Job opportunities</a> </li>
+									<li> <a href="/legal/">Legal</a> </li>
+									<li> <a href="/contact">Contact</a> </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>-->
+			</div>
+			<div class="container">
+				<hr />
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<p style="padding-right:20px;" class="pull-left">Copyright © 2019 Voglis, Inc. All right reserved.</p>
+					<ul class="list-unstyled list-inline pull-left">
+						<!--<li><a href="/privacy/privacy-policy">Privacy Policy</a></li>
+						<li><a href="/legal/terms-of-use">Terms of Use</a></li>
+						<li><a href="/sitemap">Site Map</a></li>-->
+					</ul>
+					<div class="pull-right">
+						<div class="nav nav-pills locale">
+							<span class="flag-icon flag-icon-se"></span> Proudly made in Sweden
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /FOOTER -->
+	</div>
+	<!-- /WRAPPER -->
+	<!-- SCROLLTOP -->
+	<div class="scroll-up">
+		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+	</div>
+
+	<!-- Javascript files -->
+	<script src="//d2b4rb25ddersn.vglimg.com/vg/jsbin/www-core-vflI19FXK.js"></script>
+</body>
+</html>
